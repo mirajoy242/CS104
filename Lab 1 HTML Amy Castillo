@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+        <body>
+            <h1 style="background-color: rgb(158, 102, 211);color:rgb(0, 0, 0)">
+                Amy Castillo
+                <h3 style="background-color:rgb(223, 170, 102); color:rgb(0, 0, 0)">
+                    NJIT <br> anc49 <br> B.A Of Architecture
+                </h3>
+                <p style="color:rgb(0, 0, 0)"> <h4 style=" background-color: grey;"
+                    Hello I am Amy Castillo, and I was born and raised in Union City NJ> I am 18 years old and a freshman at NJIT, studying Architecture.<br>I plan on getting my B.A in architecture and working as a licensed architect when I am finished with my Bachelor program.<br> When I finish my degree with Architecture, then i'll come back to get a degree in Construction. 
+                </p>
+                <a href="https://design.njit.edu/new-jersey-school-architecture">NJIT Bachelor of Architecture (B.Arch.)</a> <img src="architecture NJIT.png" width="700" height="500"
+            </h1>
+        </body>
+    </head>
+</html>
