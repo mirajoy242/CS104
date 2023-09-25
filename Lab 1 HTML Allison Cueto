@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+        <body>
+            <h1 style="background-color: rgb(174, 190, 152);color:rgb(0, 0, 0)">
+                Allison Cueto
+                <h3 style="background-color:burlywood; color:rgb(0, 0, 0)">
+                    NJIT <br> asc78 <br> B.A Of Interior Design
+                </h3>
+                <p style="color:rgb(0, 0, 0)"> <h4 style=" background-color: grey;"
+                    Hello I am Allison Cueto, and I was born and raised in Elizabeth NJ> I am 18 years old and a freshman at NJIT, studying Interior Design.<br>I plan on getting my B.A in interior design and working as a set producer for movies or shows.<br> When I finish my degree with Interior Design, then i'll come back to get a degree in Architecture. 
+                </p>
+                <a href="https://design.njit.edu/bachelor-arts-interior-design">NJIT Bachelor of Arts in Interior Design</a> <img src="interior design NJIT.jpg" width="700" height="500"
+            </h1>
+        </body>
+    </head>
+</html>
