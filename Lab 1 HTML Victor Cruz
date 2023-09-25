@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+        <body>
+            <h1 style="background-color: rgb(176, 177, 175);color:rgb(27, 27, 26)">
+                Victor Antonio Cruz
+                <h3 style="background-color: rgb(219, 240, 185); color:rgb(55, 95, 67)">
+                    NJIT <br> vac25 <br> B. Architecture
+                </h3>
+                <p style="color: rgb(25, 26, 23);">
+                    Hi, my name is Victor Cruz. I am a first year architecture student currently pursuing my bachelors. I was born and raised in Woodbridge, NJ and I'm the middle child in a family of 5 (not including the 2 dogs we have). I am usually quiet and stolid even with some of my friends. I enjoy gaming with friends and spending time in nature. I want to achieve my Master's in Architecture after my Bachelors.
+                </p>
+                <a href="https://design.njit.edu/new-jersey-school-architecture">NJIT School of Architecture</a>
+            </h1>
+            <img src="architecture-8.jpg" width="700" height="500"
+        </body>
+    </head>
+</html>
