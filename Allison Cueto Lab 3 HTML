@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"href="style.css"
+    </head>
+        <title>
+            Personal Portfolio
+        </title>
+        <body>
+            <h1 style="background-color: rgb(43, 66, 10);color:antiquewhite">
+                Allison Cueto
+                <h2 style="background-color: rgb(35, 44, 60); color:antiquewhite">
+                    NJIT <br> asc78 <br> Interior Design
+                </h3>
+                <p style="color: rgb(54, 56, 45);">
+                    Hello I am Allison Cueto, and I was born and raised in Elizabeth NJ <br> I am 18 years old and a freshman at NJIT, studying Interior Design.<br>I plan on getting my B.A in interior design and working as a set producer for movies or shows.<br> When I finish my degree with Interior Design, then i'll come back to get a degree in Architecture.<br>
+                </p>
+                <a href="https://design.njit.edu/bachelor-arts-interior-design">NJIT Bachelor Of Arts In Interior Design</a>
+                <img src="interior design NJIT.jpg" width="700" height="500"
+            </h1>
+            <div>
+                <table border=".5px solid black">
+                    <tr>
+                        <th><h1>Education</h1></th>
+                        <th><h1>Experience</h1></th>
+                        <th><h1>Skills</h1></th>
+                    </tr>
+                    <tr>
+                        <td>NJIT program for Interior Design is a four year program,<br>
+                            that is fully accredited by the Council for Interior Design Accreditation.<br>
+                            Which is also shared with other Art + Design programs, <br>
+                            that provides a broad design foundation and strong community.
+
+                        </td>
+                        <td>
+                            Interior design students with the variety of courses, <br>
+                            that can prepare them for professional practice.<br>
+                            which can include building and interior systems, history of funiture<br>
+                            and Building information modeling, etc. <br>
+                        </td>
+                        <td>
+                            Artchitectural programming and client needs analysis. <br>
+                            You skills in retail, sales, space planning which can help you with,<br>
+                            Furniture and lighting design. Also Theater and Set design. <br>
+                        </td>
+                    </tr>
+                </table> 
+
+                    <form>
+                        <label for="uname">Username:</label>
+                        <input type="text" id="uname" name="uname">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <br>
+
+                        <label for="Math">Math:</label>
+                        <input type="checkbox" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="checkbox" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="checkbox" id="ComputerScience" name="Computer Science"><br>
+                        <br>
+                        <label for="Math">Math:</label>
+                        <input type="radio" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="radio" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="radio" id="ComputerScience" name="Computer Science"><br>
+                        <input type="submit" name="Submit" id="Submit">
+                    </form>
+
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        CS104: Computer Programming and Graphics Problems
+                    </li>
+                    <li>
+                        AD150: Color and Composition
+                    </li>
+                    <li>
+                        AD161: History of Art And Design I
+                    </li>
+                    <li>
+                        ENG101: Intro to Academic Writing
+                    </li>
+                    <li>
+                        Math107: University Mathematics A
+                    </li>
+                    <li>
+                        FYS15: First Year Seminar
+                    </li>
+                </ul>
+            </div>
+
+            <div> 
+                <a href="id 2.jpg" > Living room pit </a> 
+            </div>
+            <img src="id 2.jpg" width="150pt" height="150pt">
+            <div> 
+                <a href="id4.jpg">Planner/Layout </a> 
+            </div>
+            <img src="id4.jpg" width="15%" height="15%">
+            <div> 
+                <a href="id3.jpg"> Minimalistic Dining Room </a> 
+                </div>
+                <img src="id3.jpg" width="150in" height="150in">
+            </div>
+            
+        </body>
+    </head>
+</html>
