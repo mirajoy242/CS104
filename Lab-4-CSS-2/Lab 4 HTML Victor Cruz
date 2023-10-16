@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+        <link rel="stylesheet" href="Style.css">
+
+        <body>
+            <h1 style="background-color: rgb(176, 177, 175);color:rgb(27, 27, 26)">
+                Victor Antonio Cruz
+                <h3 style="background-color: rgb(219, 240, 185); color:rgb(55, 95, 67)">
+                    NJIT <br> vac25 <br> B. Architecture
+                </h3>
+                <p style="color: rgb(25, 26, 23);">
+                    Hi, my name is Victor Cruz. I am a first-year architecture student currently pursuing my bachelor's. I was born and raised in Woodbridge, NJ and I'm the middle child in a family of 5 (not including the 2 dogs we have). I am usually quiet and stolid even with some of my friends. I enjoy gaming with friends and spending time in nature. I want to achieve my Master's in architecture after my bachelor's.
+                </p>
+                <a href="https://design.njit.edu/new-jersey-school-architecture">NJIT School of Architecture</a>
+            </h1>
+            <img src="architecture-8.jpg" width="700" height="500"
+        </body>
+    </head>
+
+    <div>
+        <table class="dem">
+            <tr style="background-color: lightgrey;">
+              <th><h1>Education</h1></th>
+                <th><h1>Experience</h1></th>
+                <th><h1>Skills</h1></th>
+            </tr>
+
+            <tr>
+                <td>Current undergrad architecture student</td>
+                <td>18 years</td>
+                <td>Can open doors and be useful</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="margin-top: 50px;">
+        <form>
+            <label for="Username">Username</label>
+                <input type="text" placeholder="Username"> <br>
+            <label for="First Name">First Name</label>
+                <input type="text" placeholder="First Name"></label>
+             <label for="Last Name">Last Name</label>
+                <input type="text" placeholder="Last Name"></label> <br>
+            <label for="Email Name">Email Name</label>
+                <input type="text" placeholder="Email Name"></label> <br>
+
+            <input type="checkbox"> Math
+            <input type="checkbox"> Architecture
+            <input type="checkbox"> Computer Science <br>
+
+            <input type="radio" name="course"> Math
+            <input type="radio" name="course"> Architecture
+            <input type="radio" name="course"> Computer Science <br>
+
+            <input type="submit">
+
+        </form>
+    </div>
+
+    <div>
+        <ul>
+            <li>ARCH 110</li>
+            <li>ARCH 195</li>
+            <li>CS 104</li>
+            <li>ENGL 101</li>
+            <li>FYS</li>
+        </ul>
+     </div>
+
+     <div>
+        <img src="img1.webp" alt="SitePlan" class="img1">
+
+        <img src="img2.jpg" alt="StreetView" class="img2">
+
+        <img src="EX2_Highrise_NE_view.jpg" alt="RhinoCAD" class="img3">
+     </div>
+
+     <p class="paragraph">Lorem ipsum dolor sit amet. Cantate exulta.</p>
+
+     <ul>
+        <li><a class="linkon" href="https://library.njit.edu/">NJIT Library</a></li>
+        <li><a class="linktw" href="https://njithighlanders.com/">Athletics at NJIT</a></li>
+        <li><a class="linkth" href="https://www.njit.edu/academics">NJIT Academics</a></li>
+    </ul>
+    <br>
+</html>
