@@ -1,0 +1,59 @@
+th {
+    background-color: lightgray;
+}
+
+#style {
+    width: 50%;
+    border: 2px solid black;
+    margin: 100px;
+}
+
+#table, th, td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.img1 {
+    margin-right: 50px;
+    width: 40%;
+    height: 2in;
+    border: 5px dashed red;
+    padding: 30px;
+}
+
+.img2 {
+    margin-right: 50px;
+    width: 60%;
+    height: 150pt;
+    border: 5px dashed red;
+    padding: 30px;
+}
+
+.img3 {
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+}
+
+
+.PARA {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.JerseyShore:hover{
+    color: red;
+}
+
+.RegionalStyle:visited {
+   color: gray; 
+}
+
+.JerseyShoreIsAwash:active {
+    color: orange;
+}
