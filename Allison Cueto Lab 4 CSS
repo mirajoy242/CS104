@@ -1,0 +1,28 @@
+table,th,td{
+    border:2px solid black
+    padding:10px
+    margin: 100px 0px 0px 100px
+}
+th{
+    background-color: lightgray;
+} 
+img { 
+    border-style: dashed;border: width 5px; border-color: red; padding: 30px;
+}
+.para{
+    text-align: center;
+   text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+.pinterest_link:hover {
+    background-color: red;
+    border: 20x solid black;
+}
+.amazon_link:visited{
+    color: gray;
+}
+.ticketmaster_link:active{
+    color:orange
+}
