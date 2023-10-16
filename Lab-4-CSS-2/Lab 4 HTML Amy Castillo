@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+        <link rel="stylesheet" href="lab 3.css">
+        <body>
+            <h1 style="background-color: rgb(213, 170, 237);color:rgb(246, 244, 243)">
+                Amy Castillo
+                <h3 style="background-color: rgb(104, 130, 179); color:antiquewhite">
+                    NJIT <br> anc49 <br> Bachelor of Architecture
+                </h3>
+                <p style="color: rgb(67, 74, 31);">
+                    Hi! My Name is Amy Castillo, and I was born and raised in North Jersey.<br>I grew up in Union City, at the park, and spent most of my childhood there.<br>However, I ended up moving to Florida for 3 years with my mom, and when I moved back to Jersey my mom stayed in Florida.<br>I am 18 years old and a freshman at NJIT, studying Architecture.<br>I plan to get my Bachelor in Architecture with a minor in Construction or Engineering, or maybe even completely changing my major to one of those.
+                </p>
+                <a href="https://www.njit.edu/academics/degree/bachelor-architecture-barch">NJIT Bachelor of Architecture</a>
+                <img src="https://archinect.imgix.net/uploads/b9/b9c10319274fc201208908f31f5bf846.jpeg?auto=compress%2Cformat" width="700" height="500"
+            </h1>
+            <div>
+                <table border="1px solid black">
+                    <tr>
+                        <th><h1>Education</h1></th>
+                        <th><h1>Experience</h1></th>
+                        <th><h1>Skills</h1></th>
+                        <th><h1>Volleyball</h1></th>
+                        <th><h1>Things I like to do</h1></th>
+                    </tr>
+                    <tr>
+                        <td>NJIT's B.A. Arch. program is a professional, five-year program,<br>
+                            at Hiller College of Architecture and Design.
+                        </td>
+                        <td>
+                            I hope to gain experience through eventually getting a full-time internships, which can include getting a job. <br>  There are typically three main steps to becoming a licensed architect: ,<br>
+                            completing a bachelor's degree in architecture, gaining relevant <br>
+                            experience , and passing the Architect <br>
+                            Registration Examination. 
+                        </td>
+                        <td>
+                            Good at communicating, collabrative, organized, creative, critical thinker <br>
+                        </td>
+                        <td>
+                            I've been playing volleyball for about 6 years now. I played varsity on my high school team for all the 4 years I was there. <br> By my senior year I finally got to play the position I wanted to.<br> 
+                            And it payed off because the team I was on ended up winning our county championship game. It felt so rewarding.
+                        </td>
+                        <td>
+                            Making my bed every morning since I starting dorming<br>
+                            Writing in my planner, so I can plan ahead and now what I need to get done<br>
+                            Listening to music and podcasts while I do my homework<br>
+                            Even though I don't have as much time anymore, but watching shows and movies
+                        </td>
+                    </tr>
+                </table>
+                    <form>
+                        <label for="uname">Username:</label>
+                        <input type="text" id="uname" name="uname">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <br>
+
+                        <label for="Math">Math:</label>
+                        <input type="checkbox" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="checkbox" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="checkbox" id="ComputerScience" name="Computer Science"><br><br>
+                        <label for="Math">Math:</label>
+                        <input type="radio" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="radio" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="radio" id="ComputerScience" name="Computer Science"><br>
+                        <input type="submit" name="Submit" id="Submit">
+                    </form>
+
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        CS104: Computer Programming and Graphics Problems
+                    </li>
+                    <li>
+                        MATH 107: University Mathematics A
+                    </li>
+                    <li>
+                        ARCH 195: Studio I
+                    </li>
+                    <li>
+                        ARCH110: Tools & Techniques
+                    </li>
+                    <li>
+                        English 099: Reading, Writing, Language
+                    </li>
+                    <li>
+                        First Year Student Seminar
+                    </li>
+                </ul>
+            </div>
+
+            <div> 
+                <a href="Puppies.jpg" > My favorite dog breed </a> 
+            </div>
+            <img src="Puppies.jpg" width="150pt" height="150pt">
+            <div> 
+                <a href="Logan Eggleston.jpg"> My favorite volleyball player </a> 
+            </div>
+            <img src="Logan Eggleston.jpg" width="15%" height="15%">
+            <div> 
+                <a href="Ice cream.jpg"> I love ice cream </a> 
+                </div>
+                <img src="Ice cream.jpg" width="150in" height="150in">
+            </div>
+            <ul>
+                <li> <a href="https://www.youtube.com/">YouTube</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/explore">TikTok</a></li>
+            </ul>
+        </body> 
+    </head>
+</html>
