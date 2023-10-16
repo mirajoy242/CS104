@@ -1,0 +1,17 @@
+table,th,td{
+    border:2px solid red 
+
+}
+th{
+    background-color: gray;
+    margin:100px 0px 0px 100px
+} 
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+img { 
+    border-style: dashed;border: width 5px; border-color: orange; padding: 30px;
+}
