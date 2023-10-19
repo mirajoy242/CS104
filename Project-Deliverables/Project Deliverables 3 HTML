@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html style="background-color: rgb(233, 233, 233);">
+        <title>X Parks the Spot Home</title>
+        <link rel="stylesheet" href="style.css">
+        <a class="XPTSLink" href="AboutUs.html">About Us</a>
+        <a class="XPTSLink" href="ContactUs.html">Contact Us</a>
+        <a class="XPTSLink" href="Services.html">Services</a>
+        <br>
+        <h1 class="secondtitle" style="font-size: 25px; font: 25; color: grey;">WELCOME TO</h1>
+        <h1 class="thirdtitle" style="font-size: 75px;">X Parks the Spot</h1>
+
+        <p class="para" style="color: grey;">A university parking assistance that helps you find parking around campus in real time by scanning your ID, allowing you to avoid additional time searching lots with no parking.</p>
+        <br>
+        <h1 class="fourthtitle" style="font-size: 20px; font-weight: bold;">Partnered with:</h1>
+        <img class="imgone" height="200px" src="Screenshot 2023-10-18 205845.png">
+        <br>
+        <br>
+        <a href="CampusElligibility.html" class="fourthtitle" style="font-size: 17px; font-weight: bold;">Check if your college/university is elligible -></a>
+        <br>
+        <br>
+        <a href="AvailableSpots.html" class="fourthtitle" style="font-size: 17px; font-weight: bold;">Current spots available -></a>
+        <br>
+        <h1 class="secondtitle">Our Goal</h1>
+        <br>
+    <div>
+        <p class="para">X Marks the Spot was created by college students for faculty, staff, and other students. Our objective was to solve the ongoing problem across most college campuses with inadequate parking. With our website, you can view available parking on your campus and even see where your friends parked!</p>
+        <img class="imgtwo" src="Screenshot 2023-10-18 213919.png">
+    </div>
+
+    </html>
