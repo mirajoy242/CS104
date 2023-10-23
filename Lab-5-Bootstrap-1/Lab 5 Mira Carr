@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="Lab 3 Mira Carr CSS.css">
+        <title>
+            Personal Portfolio
+        </title>
+        <body>
+            <h1 style="background-color: rgb(174, 190, 152);color:antiquewhite">
+                Mira Joy Carr
+                <h3 style="background-color: rgb(104, 130, 179); color:antiquewhite">
+                    NJIT <br> mjc242 <br> Bachelor of Architecture
+                </h3>
+                <p style="color: rgb(67, 74, 31);">
+                    Hi! My Name is Mira Carr, and I was born and raised in South Jersey.<br>I grew up in Ventnor, at the beach, and spent most of my childhood there.<br>I am 19 years old and a sophomore at NJIT, studying Architecture.<br>I plan to get my Masters of Science in Architecture with a minor in Environmental Studies and Sustainability.
+                </p>
+                <a href="https://design.njit.edu/master-science-architecture">NJIT Masters of Science in Architecture</a>
+                <img src="https://archinect.imgix.net/uploads/b9/b9c10319274fc201208908f31f5bf846.jpeg?auto=compress%2Cformat" width="700" height="500"
+            </h1>
+                <table class="table table-bordered table-striped">
+                    <tr>
+                        <th>Education</th>
+                        <th>Experience</th>
+                        <th>Skills</th>
+                    </tr>
+                    <tr>
+                        <td>NJIT's B.S. Arch. program is a pre-professional, four-year program,<br>
+                            leading to accelerated graduate-level degrees including Architecture,<br>
+                            Infrastructure Planning, Civil Engineering, and Construction Management.
+                        </td>
+                        <td>
+                            Architects need internships to gain practical experience. <br>
+                            There are typically three main steps to becoming a licensed architect: ,<br>
+                            completing a bachelor's degree in architecture, gaining relevant <br>
+                            experience through a paid internship, and passing the Architect <br>
+                            Registration Examination.
+                        </td>
+                        <td>
+                            Some aspects that you'll have to understand in the design process <br>
+                            include planning, drafting, sketching and conceptualization. <br>
+                            The only way to have exceptional design skills is to practice. <br>
+                            You can also consider taking a few extra basic drawing and <br>
+                            design courses.
+                        </td>
+                    </tr>
+                </table>
+                    <form>
+                        <label for="uname">Username:</label>
+                        <input type="text" id="uname" name="uname">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <br>
+
+                        <label for="Math">Math:</label>
+                        <input type="checkbox" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="checkbox" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="checkbox" id="ComputerScience" name="Computer Science"><br>
+                        <br>
+                        <label for="Math">Math:</label>
+                        <input type="radio" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="radio" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="radio" id="ComputerScience" name="Computer Science"><br>
+                        <input type="submit" name="Submit" id="Submit">
+                    </form>
+            
+            </div>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/List_of_architectural_styles">Architectural Styles</a></li>
+                     <li><a class="dropdown-item" href="https://architecturestyles.org/commercial-and-civic/">Commerical and Civic</a></li>
+                     <li><a class="dropdown-item" href="https://www.nar.realtor/magazine/tools/architectural-styles/residential">Residental</a></li>
+                </ul>
+              </div>
+              <br>
+              <div>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Architectural Styles</button>
+             <div id="demo" class="collapse">
+                Architectural style is defined as a set of characteristics and features that make a building or other structure notable or historically identifable.
+             </div>
+           
+           </div>
+            <div>
+                <ul> 
+                    <li>
+                        CS104: Computer Programming and Graphics Problems
+                    </li>
+                    <li>
+                        STS342: Gender, Technology and Society
+                    </li>
+                    <li>
+                        ARCH 195: Studio I
+                    </li>
+                    <li>
+                        ARCH110: Tools & Techniques
+                    </li>
+                    <li>
+                        PHYS102 & 102A: Physics I & Physics I Lab
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img class="img1" src="img1.jpg">
+                <img src="img2.webp" alt="img2" class="img2">
+                <img src="img3.jpeg" alt="img3" class="img3">
+            </div>
+
+            <div>
+                <p class="PARA" >The Jersey Shore (known by locals simply as the Shore) is the coastal region of the U.S. state of New Jersey. <br> 
+                    Geographically, the term encompasses about 141 miles of oceanfront bordering the Atlantic Ocean, from <br> 
+                    Perth Amboy in the north to Cape May Point in the south
+                </p>
+            </div>
+
+            <div>
+                    <li> <a class="JerseyShore" href="https://en.wikipedia.org/wiki/Jersey_Shore">Jersey Shore</a> </li>
+                    <li> <a class="RegionalStyle" href="https://www.houzz.com/magazine/regional-style-the-jersey-shore-stsetivw-vs~3059285">https://www.houzz.com/magazine/regional-style-the-jersey-shore-stsetivw-vs~3059285</a> </li>
+                    <li> <a class="JerseyShoreIsAwash" href="https://www.nytimes.com/1981/08/02/nyregion/jersey-shore-is-awash-with-architectural-gems.html">https://www.nytimes.com/1981/08/02/nyregion/jersey-shore-is-awash-with-architectural-gems.html</a> </li>
+            </div>
+        </body>
+    </head>
+</html>
