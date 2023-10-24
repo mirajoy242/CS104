@@ -131,10 +131,34 @@
             </div>
 
             <div>
+                </div>
+                <ul>
                     <li> <a class="Nebraska Volleyball" href="https://huskers.com/sports/volleyball">Nebraska Volleyball</a> </li>
                     <li> <a class="Nebraska vs. Wisconsin" href="https://www.youtube.com/watch?v=n8y-jtHAOSA&t=1436s">Nebraska vs. Wisconsin</a> </li>
                     <li> <a class="Big Network" href="https://btn.com/2023/10/24/nebraska-vs-wisconsin-deliver-most-watched-regular-season-volleyball-broadcast-ever/">Big Network</a> </li>
+                </ul>
             </div>
+
+        </div>
+        <div class="m-5 dropdown"> 
+         <button type="button"class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+             DropDown Menu
+         </button>
+         <ul class="dropdown-menu"> 
+             <li><a href="https://www.youtube.com/" class="dropdown-item">YouTube</a> </li>
+             <li><a href="https://www.instagram.com/" class="dropdown-item">Instagram</a> </li>
+             <li><a href="https://www.tiktok.com/" class="dropdown-item">TikTok</a> </li>
+         </ul>
+ 
+        </div>
+
+            <div>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+             <div id="demo" class="collapse">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             </div>
+
         </body> 
     </head>
 </html>
