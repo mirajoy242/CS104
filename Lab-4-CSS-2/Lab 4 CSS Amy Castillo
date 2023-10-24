@@ -15,3 +15,20 @@ td{
 img { 
     border-style: dashed;border: width 5px; border-color: orange; padding: 30px;
 }
+.para{
+    text-align: center;
+   text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+.pinterest_link:hover {
+    background-color: red;
+    border: 20x solid black;
+}
+.amazon_link:visited{
+    color: gray;
+}
+.ticketmaster_link:active{
+    color:orange
+}
