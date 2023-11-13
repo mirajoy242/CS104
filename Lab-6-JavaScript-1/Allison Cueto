@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet"href="style.css">
+    </head>
+        <title>
+            Personal Portfolio
+        </title>
+        <body>
+            <h1 style="background-color: rgb(43, 66, 10);color:antiquewhite">
+                Allison Cueto
+                <h2 style="background-color: rgb(35, 44, 60); color:antiquewhite">
+                    NJIT <br> asc78 <br> Interior Design
+                </h3>
+                <p style="color: rgb(54, 56, 45);">
+                    Hello I am Allison Cueto, and I was born and raised in Elizabeth NJ <br> I am 18 years old and a freshman at NJIT, studying Interior Design.<br>I plan on getting my B.A in interior design and working as a set producer for movies or shows.<br> When I finish my degree with Interior Design, then i'll come back to get a degree in Architecture.<br>
+                </p>
+                <a href="https://design.njit.edu/bachelor-arts-interior-design">NJIT Bachelor Of Arts In Interior Design</a>
+                <img src="interior design NJIT.jpg" width="700" height="500"
+            </h1>
+            <table class="table table-bordered table-striped">
+                    <tr>
+                        <th><Education</th>
+                        <th>Experience</th>
+                        <th>Skills</th>
+                    </tr>
+                    <tr>
+                        <td>NJIT program for Interior Design is a four year program,<br>
+                            that is fully accredited by the Council for Interior Design Accreditation.<br>
+                            Which is also shared with other Art + Design programs, <br>
+                            that provides a broad design foundation and strong community.
+
+                        </td>
+                        <td>
+                            Interior design students with the variety of courses, <br>
+                            that can prepare them for professional practice.<br>
+                            which can include building and interior systems, history of funiture<br>
+                            and Building information modeling, etc. <br>
+                        </td>
+                        <td>
+                            Artchitectural programming and client needs analysis. <br>
+                            You skills in retail, sales, space planning which can help you with,<br>
+                            Furniture and lighting design. Also Theater and Set design. <br>
+                        </td>
+                    </tr>
+                </table> 
+
+                    <form>
+                        <label for="uname">Username:</label>
+                        <input type="text" id="uname" name="uname">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <br>
+
+                        <label for="Math">Math:</label>
+                        <input type="checkbox" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="checkbox" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="checkbox" id="ComputerScience" name="Computer Science"><br>
+                        <br>
+                        <label for="Math">Math:</label>
+                        <input type="radio" id="Math" name="Math"><br>
+                        <label for="Architecture">Architecture:</label>
+                        <input type="radio" id="Architecture" name="Architecture"><br>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <label for="ComputerScience">Computer Science:</label>
+                        <input type="radio" id="ComputerScience" name="Computer Science"><br>
+                        <input type="submit" name="Submit" id="Submit">
+                    </form>
+            <div>
+                <ul>
+                    <li>
+                        CS104: Computer Programming and Graphics Problems
+                    </li>
+                    <li>
+                        AD150: Color and Composition
+                    </li>
+                    <li>
+                        AD161: History of Art And Design I
+                    </li>
+                    <li>
+                        ENG101: Intro to Academic Writing
+                    </li>
+                    <li>
+                        Math107: University Mathematics A
+                    </li>
+                    <li>
+                        FYS15: First Year Seminar
+                    </li>
+                </ul>
+            </div>
+
+            <div> 
+                <a href="id 2.jpg" > Living room pit </a> 
+            </div>
+            <img src="id 2.jpg" width="150pt" height="150pt">
+            <div> 
+                <a href="id4.jpg">Planner/Layout </a> 
+            </div>
+            <img src="id4.jpg" width="15%" height="15%">
+            <div> 
+                <a href="id3.jpg"> Minimalistic Dining Room </a> 
+                </div>
+                <img src="id3.jpg" width="150in" height="150in">
+            </div>
+            
+         <div> 
+            <p class="para"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> 
+                Nulla est numquam labore accusamus molestias eius quod vel provident!<br>
+                 Nisi natus vel id debitis non in! Sapiente omnis obcaecati consequuntur dicta.
+
+            </p>
+        </div>
+
+       <div> 
+        <ul> 
+            <li> <a class="pinterest_link"href= https://www.pinterest.com>pinterest </a></li>
+            <li> <a class="amazon_link" href=https://www.amazon.com> amazon</a></li>
+            <li> <a class="ticketmaster_link"href=https://www.ticketmaster.com>ticketmaster</a></li>
+        </ul>
+        
+       </div>
+       <div class="m-5 dropdown"> 
+        <button type="button"class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            DropDown Menu
+        </button>
+        <ul class="dropdown-menu"> 
+            <li><a href="https://uisapppr3.njit.edu/scbldr/" class="dropdown-item">Schedule Builder</a> </li>
+            <li><a href="https://en.wikipedia.org/wiki/Furuya_K%C5%8Drin" class="dropdown-item">Furuya Korin</a> </li>
+            <li><a href="https://www.figma.com/file/4KkiJvaJhTP0GBEC2p8UrX/Untitled?type=design&node-id=0-1&mode=design&t=kFo3XioaNsJo7s7n-0" class="dropdown-item">Figma WebDesign</a> </li>
+        </ul>
+
+       </div>
+
+       <div>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+     <div id="demo" class="collapse">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+
+   <p>
+
+   </p id="para10">
+    </p>
+
+    <script>
+    num1 = 50;
+    num2 = 55;
+
+    console.log(num1+num2);
+
+    console.log(num1-num2);
+
+    console.log(num1*num2);
+
+
+    score = 87;
+
+    function calculateGrade(score) {
+    if (score >= 90) {
+        console.log("Grade: A");
+    } else if (score >= 80 && score <= 89) {
+        console.log("Grade: B");
+    } else if (score >= 70 && score <= 79) {
+        console.log("Grade: C");
+    } else if (score >= 60 && score <= 69) {
+        console.log("Grade: D");
+    } else {
+        console.log("Grade: F");
+    }
+}
+
+calculateGrade(score);
+
+    </script>
+
+
+    </body>
+
+</html>
