@@ -1,0 +1,17 @@
+<div>
+    <button id="changeTextBtn" onclick="displayText">
+        Button
+    </button>
+
+    <p id="displayText">
+        Text
+    </p>
+   </div>
+
+   <script>
+
+    document.getElementById("changeTextBtn").addEventListener("click", displayText)
+    function displayText(){
+                document.getElementById('displayText').innerHTML = "Hello Javascript World"
+            }
+    </script>
