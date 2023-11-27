@@ -1,0 +1,26 @@
+<form id="myForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        
+            <script>
+                document.getElementById("myForm").addEventListener("submit", function(event) {
+                    event.preventDefault();
+        
+                    var username = document.getElementById("username").value;
+                    var password = document.getElementById("password").value;
+        
+                    if (username === '' || password === '') {
+                        alert("Please fill in both username and password.");
+                    } else {
+                        setTimeout(function() {
+                            alert("Submission successful after 3 seconds. Redirecting...");
+                        }, 3000);
+                    }
+                });
+            </script>
