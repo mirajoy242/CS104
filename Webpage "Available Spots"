@@ -19,5 +19,47 @@
 
     <h1>Current spots found in local parking decks:</h1>
     
+    <h2> What School?</h2>
+   
 
-</html>
+    <head>
+        <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+          </head>
+          <body>
+          
+          <div class="container">
+            <a href="#demo" class="btn btn-info" data-toggle="collapse">New Jersey Institute Of Technology</a>
+            <div id="demo" class="collapse">
+              Available Parking Spots: 19
+              <img src="https://www.njit.edu/sites/default/files/Screenshot-Campus-Map.jpg">
+            </div>
+          </div>
+          
+          <div class="container2">
+              <a href="#demo2" class="btn btn-info" data-toggle="collapse">Rutgers Newark</a>
+              <div id="demo2" class="collapse">
+                Available Parking Spots: 27
+                <img src="https://njms.rutgers.edu/proweb/images/map_052606.gif"  width="600" height="400">
+              </div>
+          
+              <div class="container3">
+                  <a href="#demo3" class="btn btn-info" data-toggle="collapse">Essex County College</a>
+                  <div id="demo3" class="collapse">
+                    Available Parking Spots: 38
+                    <img src="https://www.ccbcmd.edu/~/media/CCBC/Resources%20for%20Students/Student%20Records%20and%20Transcripts/Commencement/Images/Essex-Commencement-map.ashx" width="600" height="400">
+                  </div>
+                </div>
+          
+              
+          <div class="container4">
+              <a href="#demo4" class="btn btn-info" data-toggle="collapse">Seton Hall</a>
+              <div id="demo4" class="collapse">
+                Available Parking Spots: 29
+                <img src="https://kssarchitects.com/sites/default/files/styles/project_slideshow/public/Web_6-Seton-Hall-Site-1.jpg?itok=5dcvGVvR"  width="600" height="400">
+            </div>
+            </div>
+          </body>
+          </html>
